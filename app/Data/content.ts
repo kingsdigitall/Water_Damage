@@ -174,7 +174,7 @@ function ensureMissionSection(missionSection: any[]): any[] {
     description: getValueOrDefault(
       item?.description,
       defaultMissionSections[index]?.description ||
-        "DEFAULT: Our commitment to excellence in porta potty rental service in [location].",
+        "DEFAULT: Our commitment to excellence in water damage restoration service in [location].",
     ),
   }));
 }
@@ -290,90 +290,90 @@ function ensureReviewsSection(reviewsSection: any[]): any[] {
 // DEFAULT: Helper function to ensure service data lists have complete data with comprehensive fallbacks
 function ensureServiceDataLists(serviceData: any): any {
   const defaultServiceData = {
-    title: "DEFAULT: Complete Porta Potty Rental Solutions",
+    title: "DEFAULT: Complete Water Damage Restoration Solutions",
     p: "",
     lists: [
       {
-        title: "DEFAULT: Event Porta Potty Rental in [location]",
+        title: "DEFAULT: Emergency Water Damage Restoration in [location]",
         description:
-          "DEFAULT: Call Us At [phone]. We offer event porta potty rental in [location] for weddings, festivals, concerts, and special occasions.",
-        h2: "DEFAULT: Need Porta Potties for Your Event?",
-        p2: "DEFAULT: Event porta potty rental in [location] makes it easy to provide clean, convenient restroom facilities for your guests. Whether you're planning a wedding or hosting a festival, we've got the right facilities for the job. Call Us At [phone]",
-        h3: "DEFAULT: Perfect For All Types of Events",
-        p3: "DEFAULT: Outdoor weddings | Music festivals | Corporate events | Birthday parties | Sporting events | Community gatherings | Food festivals | Charity events",
+          "DEFAULT: Call Us At [phone]. We offer emergency water damage restoration in [location] for floods, burst pipes, storm damage, and water emergencies.",
+        h2: "DEFAULT: Need Emergency Water Damage Restoration?",
+        p2: "DEFAULT: Emergency water damage restoration in [location] makes it easy to quickly restore your property after floods, leaks, or storm damage. Whether it's residential or commercial property, we've got the expertise for the job. Call Us At [phone]",
+        h3: "DEFAULT: Perfect For All Types of Water Damage",
+        p3: "DEFAULT: Flood damage | Burst pipes | Storm damage | Sewage backup | Appliance leaks | Roof leaks | Basement flooding | Emergency water extraction",
         seoContent:
-          "DEFAULT: <h2>Event Porta Potty Rentals in [location]</h2><p>Our event porta potty rental service in [location] is designed to keep your celebrations clean and convenient. We deliver quality restroom facilities with flexible rental periods, perfect for events big and small. Call Us At [phone]</p>",
-        slug: "DEFAULT: event-porta-potty-rental",
+          "DEFAULT: <h2>Emergency Water Damage Restoration in [location]</h2><p>Our emergency water damage restoration service in [location] is designed to quickly restore your property after water emergencies. We provide fast response and complete restoration services, perfect for residential and commercial properties. Call Us At [phone]</p>",
+        slug: "DEFAULT: emergency-water-damage-restoration",
         imageUrl:
           "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
       },
       {
-        title: "DEFAULT: Construction Porta Potty Rental in [location]",
+        title: "DEFAULT: Commercial Water Damage Restoration in [location]",
         description:
-          "DEFAULT: Call Us At [phone]. Dependable construction porta potty rental in [location] for contractors and job sites needing reliable restroom facilities.",
-        h2: "DEFAULT: Built for Heavy-Duty Work Sites",
-        p2: "DEFAULT: Our construction porta potty rental in [location] supports job sites, construction projects, and work areas with clean, durable restroom facilities. With fast delivery and regular maintenance, you keep workers happy and productive. Call Us At [phone]",
-        h3: "DEFAULT: Trusted by Local Contractors",
-        p3: "DEFAULT: Construction sites | Roofing projects | Renovation work | Road work | Utility projects | Contractor jobs | Industrial sites | Infrastructure projects",
+          "DEFAULT: Call Us At [phone]. Dependable commercial water damage restoration in [location] for businesses and commercial properties needing reliable restoration services.",
+        h2: "DEFAULT: Built for Commercial Properties",
+        p2: "DEFAULT: Our commercial water damage restoration in [location] supports businesses, office buildings, and commercial properties with comprehensive restoration services. With fast response and complete restoration, we keep your business running smoothly. Call Us At [phone]",
+        h3: "DEFAULT: Trusted by Local Businesses",
+        p3: "DEFAULT: Office buildings | Retail stores | Restaurants | Warehouses | Manufacturing facilities | Hotels | Medical facilities | Educational institutions",
         seoContent:
-          "DEFAULT: <h2>Construction Porta Potty Rentals in [location]</h2><p>We supply reliable construction porta potty rental in [location] tailored to meet the demanding needs of local contractors and work crews. From daily maintenance to emergency service, we've got your site covered. Call Us At [phone]</p>",
-        slug: "DEFAULT: construction-porta-potty-rental",
+          "DEFAULT: <h2>Commercial Water Damage Restoration in [location]</h2><p>We supply reliable commercial water damage restoration in [location] tailored to meet the demanding needs of local businesses and commercial properties. From emergency response to complete restoration, we've got your business covered. Call Us At [phone]</p>",
+        slug: "DEFAULT: commercial-water-damage-restoration",
         imageUrl:
           "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
       },
       {
-        title: "DEFAULT: Commercial Porta Potty Rental in [location]",
+        title: "DEFAULT: Residential Water Damage Restoration in [location]",
         description:
-          "DEFAULT: Call Us At [phone]. Commercial porta potty rental in [location] with flexible terms for businesses, retail spaces, and offices.",
-        h2: "DEFAULT: Keep Business Running Smoothly",
-        p2: "DEFAULT: Our commercial porta potty rental in [location] is ideal for business events, retail locations, and temporary facilities. We provide scalable solutions and dependable service with flexible scheduling. Call Us At [phone]",
-        h3: "DEFAULT: Ideal for Business Needs",
-        p3: "DEFAULT: Business events | Retail locations | Office buildings | Warehouses | Manufacturing facilities | Commercial properties | Temporary offices | Business relocations",
+          "DEFAULT: Call Us At [phone]. Residential water damage restoration in [location] with comprehensive services for homes, apartments, and residential properties.",
+        h2: "DEFAULT: Restore Your Home Quickly",
+        p2: "DEFAULT: Our residential water damage restoration in [location] is ideal for homes, apartments, and residential properties. We provide comprehensive solutions and dependable service with flexible scheduling. Call Us At [phone]",
+        h3: "DEFAULT: Ideal for Home Restoration",
+        p3: "DEFAULT: Single family homes | Apartments | Condominiums | Townhouses | Mobile homes | Basements | Attics | Residential water damage",
         seoContent:
-          "DEFAULT: <h2>Commercial Porta Potty Rentals in [location]</h2><p>For dependable commercial porta potty rental in [location], businesses trust us for on-time delivery, quality facilities, and flexible rental schedules. We help keep your business operations running smoothly. Call Us At [phone]</p>",
-        slug: "DEFAULT: commercial-porta-potty-rental",
+          "DEFAULT: <h2>Residential Water Damage Restoration in [location]</h2><p>For dependable residential water damage restoration in [location], homeowners trust us for fast response, quality restoration, and comprehensive services. We help restore your home to pre-loss condition. Call Us At [phone]</p>",
+        slug: "DEFAULT: residential-water-damage-restoration",
         imageUrl:
           "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
       },
       {
-        title: "DEFAULT: Luxury Porta Potty Rental in [location]",
+        title: "DEFAULT: Storm Damage Restoration in [location]",
         description:
-          "DEFAULT: Call Us At [phone]. Premium luxury porta potty rental in [location] for upscale events and occasions requiring elegant restroom facilities.",
-        h2: "DEFAULT: Elegant Restroom Trailers for Special Events",
-        p2: "DEFAULT: We provide luxury porta potty rental in [location] with same-day or next-day delivery. Choose from premium restroom trailers for your upscale event—no compromising on quality or comfort. Call Us At [phone]",
-        h3: "DEFAULT: Luxury Porta Potties Work Great For",
-        p3: "DEFAULT: Upscale weddings | Corporate galas | VIP events | High-end parties | Executive functions | Premium gatherings | Luxury outdoor events | Special celebrations",
+          "DEFAULT: Call Us At [phone]. Professional storm damage restoration in [location] for severe weather damage requiring comprehensive restoration services.",
+        h2: "DEFAULT: Complete Storm Damage Restoration Services",
+        p2: "DEFAULT: We provide storm damage restoration in [location] with emergency response and comprehensive services. Choose from complete restoration solutions for your storm damage—no compromising on quality or results. Call Us At [phone]",
+        h3: "DEFAULT: Storm Damage Restoration Works Great For",
+        p3: "DEFAULT: Hurricane damage | Tornado damage | Hail damage | Wind damage | Tree damage | Roof damage | Siding damage | Window damage",
         seoContent:
-          "DEFAULT: <h2>Luxury Porta Potty Rental in [location]</h2><p>Our luxury porta potty rental service in [location] is elegant, comfortable, and built to make your event exceptional. With premium amenities and responsive service, your guests will be impressed. Call Us At [phone]</p>",
-        slug: "DEFAULT: luxury-porta-potty-rental",
+          "DEFAULT: <h2>Storm Damage Restoration in [location]</h2><p>Our storm damage restoration service in [location] is comprehensive, professional, and built to restore your property completely. With advanced equipment and expert technicians, your property will be fully restored. Call Us At [phone]</p>",
+        slug: "DEFAULT: storm-damage-restoration",
         imageUrl:
           "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
       },
       {
-        title: "DEFAULT: Same Day Porta Potty Rental in [location]",
+        title: "DEFAULT: Same Day Water Damage Restoration in [location]",
         description:
-          "DEFAULT: Call Us At [phone]. Get same day porta potty rental in [location] when you're on a tight deadline or last-minute event needs quick restroom facilities.",
-        h2: "DEFAULT: Need Porta Potties Fast? We've Got You",
-        p2: "DEFAULT: When time's tight, we're the go-to for same day porta potty rental in [location]. Call in the morning, get your facilities delivered that afternoon—no stress, no wait. Call Us At [phone]",
-        h3: "DEFAULT: Perfect for Urgent Situations",
-        p3: "DEFAULT: Last-minute events | Emergency facilities | Contractor deadlines | Weekend gatherings | Urgent work sites | Event changes | Emergency situations | Quick turnarounds",
+          "DEFAULT: Call Us At [phone]. Get same day water damage restoration in [location] when you're facing an emergency or urgent water damage needs immediate restoration services.",
+        h2: "DEFAULT: Need Water Damage Restoration Fast? We've Got You",
+        p2: "DEFAULT: When time's critical, we're the go-to for same day water damage restoration in [location]. Call in the morning, get emergency response that afternoon—no stress, no wait. Call Us At [phone]",
+        h3: "DEFAULT: Perfect for Emergency Situations",
+        p3: "DEFAULT: Burst pipes | Flooding emergencies | Storm damage | Appliance leaks | Roof leaks | Sewage backups | Emergency water extraction | Critical water damage",
         seoContent:
-          "DEFAULT: <h2>Same Day Porta Potty Rental in [location]</h2><p>Our same day porta potty rental in [location] helps you handle urgent situations fast. With responsive service and real-time availability, you get the facilities you need without missing a beat. Call Us At [phone]</p>",
-        slug: "DEFAULT: same-day-porta-potty-rental",
+          "DEFAULT: <h2>Same Day Water Damage Restoration in [location]</h2><p>Our same day water damage restoration in [location] helps you handle emergency situations fast. With responsive service and immediate availability, you get the restoration you need without delay. Call Us At [phone]</p>",
+        slug: "DEFAULT: same-day-water-damage-restoration",
         imageUrl:
           "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
       },
       {
-        title: "DEFAULT: Festival Porta Potty Rental in [location]",
+        title: "DEFAULT: Mold Remediation Services in [location]",
         description:
-          "DEFAULT: Call Us At [phone]. Reliable festival porta potty rental in [location] for music festivals, food events, and large outdoor gatherings.",
-        h2: "DEFAULT: Keep Your Festival Clean and Convenient",
-        p2: "DEFAULT: Our festival porta potty rental in [location] provides clean, accessible restroom facilities for large crowds and outdoor events. Keep your attendees comfortable and happy. Call Us At [phone]",
-        h3: "DEFAULT: Great For All Types of Festivals",
-        p3: "DEFAULT: Music festivals | Food festivals | Art fairs | Community events | Street festivals | Outdoor concerts | Craft shows | Cultural celebrations",
+          "DEFAULT: Call Us At [phone]. Reliable mold remediation services in [location] for mold removal, prevention, and comprehensive mold restoration.",
+        h2: "DEFAULT: Keep Your Property Safe and Mold-Free",
+        p2: "DEFAULT: Our mold remediation services in [location] provide safe, effective mold removal for residential and commercial properties. Keep your property healthy and safe. Call Us At [phone]",
+        h3: "DEFAULT: Great For All Types of Mold Issues",
+        p3: "DEFAULT: Black mold | Toxic mold | Basement mold | Attic mold | Bathroom mold | Crawl space mold | HVAC mold | Post-water damage mold",
         seoContent:
-          "DEFAULT: <h2>Festival Porta Potty Rental in [location]</h2><p>Make your festival successful with festival porta potty rental in [location]. We deliver clean facilities right to your event location and handle all maintenance and pickup. Call Us At [phone]</p>",
-        slug: "DEFAULT: festival-porta-potty-rental",
+          "DEFAULT: <h2>Mold Remediation Services in [location]</h2><p>Make your property safe with mold remediation services in [location]. We provide complete mold removal and prevention services to protect your property and health. Call Us At [phone]</p>",
+        slug: "DEFAULT: mold-remediation-services",
         imageUrl:
           "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
       },
@@ -390,12 +390,12 @@ function ensureServiceDataLists(serviceData: any): any {
           title: getValueOrDefault(
             item?.title,
             defaultServiceData.lists[index]?.title ||
-              "DEFAULT: Porta Potty Rental Service",
+              "DEFAULT: Water Damage Restoration Service",
           ),
           description: getValueOrDefault(
             item?.description,
             defaultServiceData.lists[index]?.description ||
-              "DEFAULT: Professional porta potty rental service in [location].",
+              "DEFAULT: Professional water damage restoration service in [location].",
           ),
           h2: getValueOrDefault(
             item?.h2,
@@ -405,7 +405,7 @@ function ensureServiceDataLists(serviceData: any): any {
           p2: getValueOrDefault(
             item?.p2,
             defaultServiceData.lists[index]?.p2 ||
-              "DEFAULT: Quality porta potty rental service in [location].",
+              "DEFAULT: Quality water damage restoration service in [location].",
           ),
           h3: getValueOrDefault(
             item?.h3,
@@ -419,7 +419,7 @@ function ensureServiceDataLists(serviceData: any): any {
           seoContent: getValueOrDefault(
             item?.seoContent,
             defaultServiceData.lists[index]?.seoContent ||
-              "DEFAULT: <h2>Professional Porta Potty Rental Service</h2><p>Quality service in [location].</p>",
+              "DEFAULT: <h2>Professional Water Damage Restoration Service</h2><p>Quality restoration service in [location].</p>",
           ),
           slug: getValueOrDefault(
             item?.slug,
@@ -1066,16 +1066,16 @@ const homePageContent: any = {
   reviews: ensureReviewsSection(reviews),
   whyChooseSection: (() => {
     const defaultWhyChoose = {
-      title: "DEFAULT: Why Choose Our Porta Potty Rental Service?",
+      title: "DEFAULT: Why Choose Our Water Damage Restoration Service?",
       whyChooseData: [
         {
-          title: "DEFAULT: Fast Delivery",
-          description: "DEFAULT: Same-day and next-day delivery available",
+          title: "DEFAULT: Fast Response",
+          description: "DEFAULT: 24/7 emergency response available",
           imageUrl: "DEFAULT: Comprehensive-Services.svg",
         },
         {
-          title: "DEFAULT: Clean Facilities",
-          description: "DEFAULT: Well-maintained, sanitized porta potties in [location]",
+          title: "DEFAULT: Professional Restoration",
+          description: "DEFAULT: Certified technicians and advanced equipment in [location]",
           imageUrl: "DEFAULT: Transparent-Pricing.png",
         },
         {
@@ -1120,19 +1120,19 @@ const homePageContent: any = {
   })(),
   affordableWidget: (() => {
     const defaultAffordable = {
-      title: "DEFAULT: Affordable Porta Potty Rental Solutions",
+      title: "DEFAULT: Affordable Water Damage Restoration Solutions",
       description:
-        "DEFAULT: Get the best prices on porta potty rentals in [location] with transparent pricing and no hidden fees.",
+        "DEFAULT: Get the best prices on water damage restoration in [location] with transparent pricing and no hidden fees.",
       ctaText: "DEFAULT: Get Your Free Quote",
       cards: [
         {
-          title: "DEFAULT: Event Rentals",
-          description: "DEFAULT: Perfect for weddings, festivals, and outdoor events",
+          title: "DEFAULT: Emergency Services",
+          description: "DEFAULT: Perfect for floods, storms, and water emergencies",
           price: "DEFAULT: Starting at $99",
         },
         {
-          title: "DEFAULT: Construction Sites",
-          description: "DEFAULT: Ideal for construction and work sites",
+          title: "DEFAULT: Restoration Services",
+          description: "DEFAULT: Ideal for complete property restoration",
           price: "DEFAULT: Starting at $149",
         },
       ],
@@ -1178,24 +1178,24 @@ const homePageContent: any = {
   })(),
   processWidget: (() => {
     const defaultProcess = {
-      title: "DEFAULT: Simple 3-Step Process",
+      title: "DEFAULT: Simple 3-Step Restoration Process",
       description:
         "",
       steps: [
         {
           step: "DEFAULT: 1",
-          title: "DEFAULT: Call or Book Online",
-          description: "DEFAULT: Contact us at [phone] or book online",
+          title: "DEFAULT: Emergency Call",
+          description: "DEFAULT: Contact us at [phone] for emergency response",
         },
         {
           step: "DEFAULT: 2",
-          title: "DEFAULT: We Deliver",
-          description: "DEFAULT: Fast delivery to your location in [location]",
+          title: "DEFAULT: Assessment & Extraction",
+          description: "DEFAULT: Fast response to your location in [location]",
         },
         {
           step: "DEFAULT: 3",
-          title: "DEFAULT: We Pick Up",
-          description: "DEFAULT: We handle pickup and disposal for you",
+          title: "DEFAULT: Restoration & Repair",
+          description: "DEFAULT: We handle complete restoration for you",
         },
       ],
     };
@@ -1234,7 +1234,7 @@ const homePageContent: any = {
   })(),
   hourCtaWidget: (() => {
     const defaultHourCta = {
-      title: "DEFAULT: 24-Hour Porta Potty Rental Service Available",
+      title: "DEFAULT: 24-Hour Water Damage Restoration Service Available",
     };
 
     if (!hourCtaWidget || typeof hourCtaWidget !== "object") {
@@ -1250,32 +1250,32 @@ const homePageContent: any = {
 // DEFAULT: Location Page Content with comprehensive default fallbacks
 const {
   metaTitle:
-    locationMetaTitle = "DEFAULT: Porta Potty Rental Service Areas | [location] and Surrounding Areas",
+    locationMetaTitle = "DEFAULT: Water Damage Restoration Service Areas | [location] and Surrounding Areas",
   metaDescription:
-    locationMetaDescription = "DEFAULT: We provide porta potty rental services throughout [location] and surrounding areas. Find your location and get fast, reliable service today.",
+    locationMetaDescription = "DEFAULT: We provide water damage restoration services throughout [location] and surrounding areas. Find your location and get fast, reliable restoration today.",
   bannerQuote:
     locationBannerQuote = "DEFAULT: Serving [location] and Surrounding Areas",
   bannerImage:
     locationBannerImage = "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
   h1Banner:
-    locationH1Banner = "DEFAULT: Porta Potty Rental Service Areas in [location]",
+    locationH1Banner = "DEFAULT: Water Damage Restoration Service Areas in [location]",
   p1Banner:
-    locationP1Banner = "DEFAULT: We proudly serve [location] and surrounding areas with fast, reliable porta potty rental services. Find your location below or call [phone] to confirm service availability.",
+    locationP1Banner = "DEFAULT: We proudly serve [location] and surrounding areas with fast, reliable water damage restoration services. Find your location below or call [phone] to confirm service availability.",
   blogMetas = {
-    metaTitle: "DEFAULT: Local Porta Potty Rental Tips and Information",
+    metaTitle: "DEFAULT: Local Water Damage Restoration Tips and Information",
     metaDescription:
-      "DEFAULT: Get helpful tips and information about porta potty rental in your area.",
+      "DEFAULT: Get helpful tips and information about water damage restoration in your area.",
   },
 } = (locationPageDataJson as any) || {};
 
 const locationPageContent: any = {
   metaTitle: getValueOrDefault(
     locationMetaTitle,
-    "DEFAULT: Porta Potty Rental Service Areas | [location] and Surrounding Areas",
+    "DEFAULT: Water Damage Restoration Service Areas | [location] and Surrounding Areas",
   ),
   metaDescription: getValueOrDefault(
     locationMetaDescription,
-    "DEFAULT: We provide porta potty rental services throughout [location] and surrounding areas. Find your location and get fast, reliable service today.",
+    "DEFAULT: We provide water damage restoration services throughout [location] and surrounding areas. Find your location and get fast, reliable restoration today.",
   ),
   bannerQuote: getValueOrDefault(
     locationBannerQuote,
@@ -1287,17 +1287,17 @@ const locationPageContent: any = {
   ),
   h1Banner: getValueOrDefault(
     locationH1Banner,
-    "DEFAULT: Porta Potty Rental Service Areas in [location]",
+    "DEFAULT: Water Damage Restoration Service Areas in [location]",
   ),
   p1Banner: getValueOrDefault(
     locationP1Banner,
-    "DEFAULT: We proudly serve [location] and surrounding areas with fast, reliable porta potty rental services. Find your location below or call [phone] to confirm service availability.",
+    "DEFAULT: We proudly serve [location] and surrounding areas with fast, reliable water damage restoration services. Find your location below or call [phone] to confirm service availability.",
   ),
   blogMetas: (() => {
     const defaultBlogMetas = {
-      metaTitle: "DEFAULT: Local Porta Potty Rental Tips and Information",
+      metaTitle: "DEFAULT: Local Water Damage Restoration Tips and Information",
       metaDescription:
-        "DEFAULT: Get helpful tips and information about porta potty rental in your area.",
+        "DEFAULT: Get helpful tips and information about water damage restoration in your area.",
     };
 
     if (!blogMetas || typeof blogMetas !== "object") {
@@ -1320,36 +1320,36 @@ const locationPageContent: any = {
 // DEFAULT: Brands Content with comprehensive default fallbacks
 const {
   metaTitle:
-    brandsMetaTitle = "DEFAULT: Our Trusted Porta Potty Rental Partners | Quality Equipment & Service",
+    brandsMetaTitle = "DEFAULT: Our Trusted Water Damage Restoration Partners | Quality Equipment & Service",
   metaDescription:
-    brandsMetaDescription = "DEFAULT: Learn about our trusted porta potty rental partners and equipment. We use only the highest quality facilities for reliable service in [location].",
+    brandsMetaDescription = "DEFAULT: Learn about our trusted water damage restoration partners and equipment. We use only the highest quality restoration equipment for reliable service in [location].",
   bannerImage:
     brandsBannerImage = "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
-  h1Banner: brandsH1Banner = "DEFAULT: Our Trusted Porta Potty Rental Partners",
-  h2: brandh2 = "DEFAULT: Quality Facilities You Can Trust",
-  p2: brandsP2 = "DEFAULT: We partner with the most reliable suppliers in the industry to ensure you get quality porta potties and professional service every time in [location].",
+  h1Banner: brandsH1Banner = "DEFAULT: Our Trusted Water Damage Restoration Partners",
+  h2: brandh2 = "DEFAULT: Quality Equipment You Can Trust",
+  p2: brandsP2 = "DEFAULT: We partner with the most reliable suppliers in the industry to ensure you get quality restoration equipment and professional service every time in [location].",
   h2Image:
     brandsh2Image = "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
   brandslist = [
     {
-      name: "DEFAULT: Premium Porta Potty Solutions",
-      description: "DEFAULT: Industry-leading porta potty rental equipment",
+      name: "DEFAULT: Premium Water Damage Restoration Solutions",
+      description: "DEFAULT: Industry-leading water damage restoration equipment",
       image:
         "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930+1",
-      brandName: "DEFAULT: Premium Porta Potty Solutions",
+      brandName: "DEFAULT: Premium Water Damage Restoration Solutions",
       brandLink: "DEFAULT: #",
       brandDescription:
-        "DEFAULT: Industry-leading Porta Potty rental equipment and professional service",
+        "DEFAULT: Industry-leading water damage restoration equipment and professional service",
     },
     {
-      name: "DEFAULT: Reliable Waste Management",
-      description: "DEFAULT: Trusted waste management solutions",
+      name: "DEFAULT: Reliable Restoration Management",
+      description: "DEFAULT: Trusted restoration management solutions",
       image:
         "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930+2",
-      brandName: "DEFAULT: Reliable Waste Management",
+      brandName: "DEFAULT: Reliable Restoration Management",
       brandLink: "DEFAULT: #",
       brandDescription:
-        "DEFAULT: Trusted waste management solutions for all your needs",
+        "DEFAULT: Trusted restoration management solutions for all your needs",
     },
   ],
 } = (brandsDataJson as any) || {};
@@ -1357,11 +1357,11 @@ const {
 const brandsContent: any = {
   metaTitle: getValueOrDefault(
     brandsMetaTitle,
-    "DEFAULT: Our Trusted Porta Potty Rental Partners | Quality Equipment & Service",
+    "DEFAULT: Our Trusted Water Damage Restoration Partners | Quality Equipment & Service",
   ),
   metaDescription: getValueOrDefault(
     brandsMetaDescription,
-    "DEFAULT: Learn about our trusted porta potty rental partners and equipment. We use only the highest quality facilities for reliable service in [location].",
+    "DEFAULT: Learn about our trusted water damage restoration partners and equipment. We use only the highest quality restoration equipment for reliable service in [location].",
   ),
   bannerImage: getValueOrDefault(
     brandsBannerImage,
@@ -1369,12 +1369,12 @@ const brandsContent: any = {
   ),
   h1Banner: getValueOrDefault(
     brandsH1Banner,
-    "DEFAULT: Our Trusted Porta Potty Rental Partners",
+    "DEFAULT: Our Trusted Water Damage Restoration Partners",
   ),
   h2: getValueOrDefault(brandh2, "DEFAULT: Quality Equipment You Can Trust"),
   p2: getValueOrDefault(
     brandsP2,
-    "DEFAULT: We partner with the most reliable suppliers in the industry to ensure you get quality porta potties and professional service every time in [location].",
+    "DEFAULT: We partner with the most reliable suppliers in the industry to ensure you get quality restoration equipment and professional service every time in [location].",
   ),
   h2Image: getValueOrDefault(
     brandsh2Image,
@@ -1383,21 +1383,21 @@ const brandsContent: any = {
   brandslist: (() => {
     const defaultBrandsList = [
       {
-        name: "DEFAULT: Premium Porta Potty Solutions",
-        description: "DEFAULT: Industry-leading porta potty rental equipment",
+        name: "DEFAULT: Premium Water Damage Restoration Solutions",
+        description: "DEFAULT: Industry-leading water damage restoration equipment",
         image:
           "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
-        brandName: "DEFAULT: Premium Porta Potty Solutions",
+        brandName: "DEFAULT: Premium Water Damage Restoration Solutions",
         brandLink: "DEFAULT: #",
         brandDescription:
-          "DEFAULT: Industry-leading Porta Potty rental equipment and professional service",
+          "DEFAULT: Industry-leading water damage restoration equipment and professional service",
       },
       {
-        name: "DEFAULT: Reliable Sanitation Management",
-        description: "DEFAULT: Trusted sanitation and portable restroom solutions",
+        name: "DEFAULT: Reliable Restoration Management",
+        description: "DEFAULT: Trusted restoration and water damage solutions",
         image:
           "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
-        brandName: "DEFAULT: Reliable Waste Management",
+        brandName: "DEFAULT: Reliable Restoration Management",
         brandLink: "DEFAULT: #",
         brandDescription:
           "DEFAULT: Trusted waste management solutions for all your needs",
@@ -1443,33 +1443,33 @@ const brandsContent: any = {
 // DEFAULT: Service Page Content with comprehensive default fallbacks
 const {
   metaTitle:
-    serviceMetaTitle = "DEFAULT: Professional Porta Potty Rental Services in [location] | All Event Types",
+    serviceMetaTitle = "DEFAULT: Professional Water Damage Restoration Services in [location] | All Event Types",
   metaDescription:
-    serviceMetaDescription = "DEFAULT: Complete porta potty rental services in [location]. Events, construction, festivals, and emergency needs. Call [phone] for fast service.",
+    serviceMetaDescription = "DEFAULT: Complete water damage restoration services in [location]. Emergency response, flood damage, mold removal, and structural drying. Call [phone] for fast service.",
   bannerQuote:
-    serviceBannerQuote = "DEFAULT: Professional Porta Potty Rental Services",
+    serviceBannerQuote = "DEFAULT: Professional Water Damage Restoration Services",
   bannerImage:
     serviceBannerImage = "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
   h1Banner:
-    serviceH1Banner = "DEFAULT: Professional Porta Potty Rental Services in [location]",
+    serviceH1Banner = "DEFAULT: Professional Water Damage Restoration Services in [location]",
   p1Banner:
-    serviceP1Banner = "DEFAULT: We provide comprehensive porta potty rental services for all types of events and projects in [location]. From weddings to construction sites, we have you covered.",
-  serviceTitle = "DEFAULT: Our Porta Potty Rental Services",
+    serviceP1Banner = "DEFAULT: We provide comprehensive water damage restoration services for all types of properties and emergencies in [location]. From residential homes to commercial buildings, we have you covered.",
+  serviceTitle = "DEFAULT: Our Water Damage Restoration Services",
   serviceData = {
-    title: "DEFAULT: Complete Porta Potty Rental Solutions",
-    p: "DEFAULT: We offer a full range of porta potty rental services to meet all your sanitation needs in [location].",
+    title: "DEFAULT: Complete Water Damage Restoration Solutions",
+    p: "DEFAULT: We offer a full range of water damage restoration services to meet all your property restoration needs in [location].",
     lists: [
       {
-        title: "DEFAULT: Residential Porta Potty Rental in [location]",
+        title: "DEFAULT: Emergency Water Damage Services in [location]",
         description:
-          "DEFAULT: Call Us At [phone]. We offer residential Porta Potty rental in [location] for home cleanouts, remodeling, yard waste, and more.",
-        h2: "DEFAULT: Need a Porta Potty for Your Home Project?",
-        p2: "DEFAULT: Residential Porta Potty rental in [location] makes it easy to get rid of clutter, renovation debris, and junk without the trips to the dump. Whether you're clearing the garage or remodeling your kitchen, we've got the right size bin for the job. Call Us At [phone]",
-        h3: "DEFAULT: Perfect For Everyday Home Cleanup",
-        p3: "DEFAULT: Spring cleaning | Garage cleanouts | DIY renovations | Moving day trash | Yard debris | Storm cleanup | Furniture disposal | Basement junk removal",
+          "DEFAULT: Call Us At [phone]. We offer emergency water damage services in [location] for flood cleanup, water extraction, structural drying, and emergency restoration.",
+        h2: "DEFAULT: Need Emergency Water Damage Services?",
+        p2: "DEFAULT: Emergency water damage services in [location] make it easy to quickly address water emergencies and restore your property. Whether you're dealing with burst pipes or flooding, we've got the expertise for the job. Call Us At [phone]",
+        h3: "DEFAULT: Perfect For Water Damage Emergencies",
+        p3: "DEFAULT: Flood cleanup | Water extraction | Structural drying | Emergency response | Burst pipe repair | Storm damage | Sewage cleanup | Mold prevention",
         seoContent:
-          "DEFAULT: <h2>Residential Porta Potty Rentals in [location]</h2><p>Our residential Porta Potty rental service in [location] is designed to keep your home projects organized and stress-free. We deliver driveway-friendly bins with flexible rental periods, perfect for cleanups big and small. Call Us At [phone]</p>",
-        slug: "DEFAULT: residential-porta-potty-rental",
+          "DEFAULT: <h2>Emergency Water Damage Services in [location]</h2><p>Our emergency water damage services in [location] are designed to respond quickly to water emergencies and restore your property. We provide comprehensive restoration services with rapid response times, perfect for residential and commercial properties. Call Us At [phone]</p>",
+        slug: "DEFAULT: emergency-water-damage-services",
         imageUrl:
           "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
       }
@@ -1480,15 +1480,15 @@ const {
 const servicePageContent: any = {
   metaTitle: getValueOrDefault(
     serviceMetaTitle,
-    "DEFAULT: Professional Porta Potty Rental Services in [location] | All Event Types",
+    "DEFAULT: Professional Water Damage Restoration Services in [location] | All Event Types",
   ),
   metaDescription: getValueOrDefault(
     serviceMetaDescription,
-    "DEFAULT: Complete porta potty rental services in [location]. Events, construction, festivals, and emergency needs. Call [phone] for fast service.",
+    "DEFAULT: Complete water damage restoration services in [location]. Emergency response, flood damage, mold removal, and structural drying. Call [phone] for fast service.",
   ),
   bannerQuote: getValueOrDefault(
     serviceBannerQuote,
-    "DEFAULT: Professional Porta Potty Rental Services",
+    "DEFAULT: Professional Water Damage Restoration Services",
   ),
   bannerImage: getValueOrDefault(
     serviceBannerImage,
@@ -1496,15 +1496,15 @@ const servicePageContent: any = {
   ),
   h1Banner: getValueOrDefault(
     serviceH1Banner,
-    "DEFAULT: Professional Porta Potty Rental Services in [location]",
+    "DEFAULT: Professional Water Damage Restoration Services in [location]",
   ),
   p1Banner: getValueOrDefault(
     serviceP1Banner,
-    "DEFAULT: We provide comprehensive porta potty rental services for all types of events and projects in [location]. From weddings to construction sites, we have you covered.",
+    "DEFAULT: We provide comprehensive water damage restoration services for all types of properties and emergencies in [location]. From residential homes to commercial buildings, we have you covered.",
   ),
   serviceTitle: getValueOrDefault(
     serviceTitle,
-    "DEFAULT: Our Porta Potty Rental Services",
+    "DEFAULT: Our Water Damage Restoration Services",
   ),
   serviceData: ensureServiceDataLists(serviceData),
 };
@@ -1560,14 +1560,14 @@ const subDomainUrlContent: any = (() => {
           },
         ],
       },
-      h5: "DEFAULT: Affordable Porta Potty Rentals Company for Every Occasion",
-      p5: "DEFAULT: Whether it's an outdoor event or a construction project, our porta potty rentals offer the ideal sanitation solution.",
+      h5: "DEFAULT: Affordable Water Damage Restoration Company for Every Emergency",
+      p5: "DEFAULT: Whether it's a flood emergency or storm damage, our water damage restoration services offer the ideal restoration solution.",
       h5Image:
         "https://ik.imagekit.io/h7rza8886p/Default1.jpg?updatedAt=1757319001930",
       faq: [
         {
-          ques: "DEFAULT: What types of porta potties do you offer?",
-          ans: "DEFAULT: We offer multiple types including standard, deluxe, handicap accessible, and luxury porta potties to suit every event.",
+          ques: "DEFAULT: What types of water damage do you restore?",
+          ans: "DEFAULT: We restore all types of water damage including flood damage, burst pipes, storm damage, sewage backups, and appliance leaks.",
         },
       ],
       reviews: [],
@@ -1598,11 +1598,11 @@ const subDomainUrlContent: any = (() => {
         slug: getValueOrDefault(location?.slug, `DEFAULT: ${key}`),
         metaTitle: getValueOrDefault(
           location?.metaTitle,
-          `DEFAULT: Affordable Porta Potty Rental Services in ${location?.name || key}`,
+          `DEFAULT: Affordable Water Damage Restoration Services in ${location?.name || key}`,
         ),
         metaDescription: getValueOrDefault(
           location?.metaDescription,
-          `DEFAULT: Looking for reliable porta potty rental in ${location?.name || key}? We offer fast delivery and clean facilities.`,
+          `DEFAULT: Looking for reliable water damage restoration in ${location?.name || key}? We offer fast response and professional restoration services.`,
         ),
         bannerImage: getValueOrDefault(
           location?.bannerImage,
@@ -1610,15 +1610,15 @@ const subDomainUrlContent: any = (() => {
         ),
         h1Banner: getValueOrDefault(
           location?.h1Banner,
-          `DEFAULT: Porta Potty Rentals in ${location?.name || key} Near You`,
+          `DEFAULT: Water Damage Restoration in ${location?.name || key} Near You`,
         ),
         h2: getValueOrDefault(
           location?.h2,
-          `DEFAULT: Your Trusted Porta Potty Rental Partner in ${location?.name || key}`,
+          `DEFAULT: Your Trusted Water Damage Restoration Partner in ${location?.name || key}`,
         ),
         p2: getValueOrDefault(
           location?.p2,
-          `DEFAULT: Professional porta potty rental service in ${location?.name || key} for all your event and project needs.`,
+          `DEFAULT: Professional water damage restoration service in ${location?.name || key} for all your property restoration needs.`,
         ),
         h2Image: getValueOrDefault(
           location?.h2Image,
@@ -1626,15 +1626,15 @@ const subDomainUrlContent: any = (() => {
         ),
         serviceTtile: getValueOrDefault(
           location?.serviceTtile,
-          "DEFAULT: Our Porta Potty Rental Services",
+          "DEFAULT: Our Water Damage Restoration Services",
         ),
         serviceTitle: getValueOrDefault(
           location?.serviceTitle || location?.serviceTtile,
-          "DEFAULT: Our Porta Potty Rental Services",
+          "DEFAULT: Our Water Damage Restoration Services",
         ),
         needsSection: (() => {
           const defaultNeeds = {
-            title: `DEFAULT: Why Choose Us for Porta Potty Rental in ${location?.name || key}`,
+            title: `DEFAULT: Why Choose Us for Water Damage Restoration in ${location?.name || key}`,
             description: "DEFAULT: Professional service you can trust",
             needslist: [
               {
@@ -1683,11 +1683,11 @@ const subDomainUrlContent: any = (() => {
         })(),
         processSection: (() => {
           const defaultProcess = {
-            title: "DEFAULT: How Our Porta Potty Rental Process Works",
+            title: "DEFAULT: How Our Water Damage Restoration Process Works",
             processData: [
               {
-                title: "DEFAULT: Choose Your Porta Potty",
-                description: "DEFAULT: Pick the type that fits your event or project.",
+                title: "DEFAULT: Choose Your Restoration Service",
+                description: "DEFAULT: Pick the restoration service that fits your water damage emergency.",
               },
             ],
           };
@@ -1726,11 +1726,11 @@ const subDomainUrlContent: any = (() => {
         })(),
         h5: getValueOrDefault(
           location?.h5,
-          "DEFAULT: Affordable Porta Potty Rentals Company for Every Occasion",
+          "DEFAULT: Affordable Water Damage Restoration Company for Every Emergency",
         ),
         p5: getValueOrDefault(
           location?.p5,
-          "DEFAULT: Whether it's an outdoor event or a construction project, our porta potty rentals offer the ideal sanitation solution.",
+          "DEFAULT: Whether it's a flood emergency or storm damage, our water damage restoration services offer the ideal restoration solution.",
         ),
         h5Image: getValueOrDefault(
           location?.h5Image,
@@ -1745,12 +1745,12 @@ const subDomainUrlContent: any = (() => {
                 ),
                 ans: getValueOrDefault(
                   faqItem?.ans,
-                  "DEFAULT: Professional answer to your porta potty rental question.",
+                  "DEFAULT: Professional answer to your water damage restoration question.",
                 ),
               }))
             : [
                 {
-                  ques: "DEFAULT: What types of porta potties do you offer?",
+                  ques: "DEFAULT: What types of water damage do you restore?",
                   ans: "DEFAULT: We offer multiple types to suit every event.",
                 },
               ],
@@ -1781,13 +1781,13 @@ function replacePlaceholders(obj: any, ContactInfo: any): any {
     No: ContactInfo?.No || "DEFAULT: (555) 123-4567",
     tel: ContactInfo?.tel || "DEFAULT: +15551234567",
     mail: ContactInfo?.mail ,
-    baseUrl: ContactInfo?.baseUrl || "DEFAULT: https://portapottyrental.com/",
-    host: ContactInfo?.host || "DEFAULT: portapottyrental.com",
-    name: ContactInfo?.name || "DEFAULT: Premier Porta Potty Rental",
+    baseUrl: ContactInfo?.baseUrl || "DEFAULT: https://waterdamagerestoration.com/",
+    host: ContactInfo?.host || "DEFAULT: waterdamagerestoration.com",
+    name: ContactInfo?.name || "DEFAULT: Premier Water Damage Restoration",
     address:
       ContactInfo?.address ||
       "DEFAULT: 123 Main Street, Your City, State 12345",
-    service: ContactInfo?.service || "DEFAULT: Porta Potty Rental",
+    service: ContactInfo?.service || "DEFAULT: Water Damage Restoration",
     zipCode: ContactInfo?.zipCode || "DEFAULT: 12345",
     ...ContactInfo,
   };
