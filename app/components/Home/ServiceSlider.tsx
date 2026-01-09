@@ -3,10 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
-import data1 from "@/components/Content/servicePage.json";
+import contactContent from "@/app/Data/content";
 
 const ServiceSlider = () => {
-  const data = data1.serviceData;
+  const data = contactContent.servicePageContent.serviceData;
 
   const settings = {
     className: "center",

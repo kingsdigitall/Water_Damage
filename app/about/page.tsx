@@ -4,7 +4,6 @@ import Link from "next/link";
 import React from "react";
 import { FaCrown } from "react-icons/fa6";
 import Banner from "@/app/components/Home/Banner";
-import contentData from "@/components/Content/about.json"
 import Navbar from "../components/Navbar";
 
 import contactContent from "@/app/Data/content";
@@ -14,10 +13,10 @@ const aboutContent: any = contactContent.aboutContent;
 
 export const metadata: Metadata = {
   title: {
-    absolute: contentData.metaTitle?.split("[location]").join( ContactInfo.location)
+    absolute: aboutContent.metaTitle?.split("[location]").join( ContactInfo.location)
             ?.split("[phone]").join(ContactInfo.No),
   },
-  description: contentData.metaDescription?.split("[location]").join( ContactInfo.location)
+  description: aboutContent.metaDescription?.split("[location]").join( ContactInfo.location)
             ?.split("[phone]").join(ContactInfo.No),
   alternates: {
     canonical: `${ContactInfo.baseUrl}about/`,
@@ -32,11 +31,11 @@ const page = () => {
       <div className="  cursor-default w-screen md:w-full  min-w-[375px] text-lg">
         {/* poster */}
         <Banner
-          h1={contentData.h1Banner?.split("[location]").join( ContactInfo.location)
+          h1={aboutContent.h1Banner?.split("[location]").join( ContactInfo.location)
             ?.split("[phone]").join(ContactInfo.No)}
-          image={contentData.bannerImage}
-          header={contentData.bannerQuote}
-          p1={contentData.metaDescription?.split("[location]").join( ContactInfo.location)
+          image={aboutContent.bannerImage}
+          header={aboutContent.bannerQuote}
+          p1={aboutContent.metaDescription?.split("[location]").join( ContactInfo.location)
             ?.split("[phone]").join(ContactInfo.No)}
         />
         {/* poster */}
@@ -51,15 +50,15 @@ const page = () => {
                 Who We Are?<br></br>
               </h2>
               <div className="mt-6 "></div>
-              <div className="  text-justify" dangerouslySetInnerHTML={{ __html: contentData.p2?.split("[location]").join( ContactInfo.location)
+              <div className="  text-justify" dangerouslySetInnerHTML={{ __html: aboutContent.p2?.split("[location]").join( ContactInfo.location)
       ?.split("[phone]").join(ContactInfo.No) }}>
               </div>
             </div>
             <div className="w-full pt-10">
               <Image
-                src={`${contentData.h2Image}`}
+                src={`${aboutContent.h2Image}`}
                 className="border rounded-lg shadow-lg  object-cover "
-                alt={contentData.h2Image.split("/").pop()?.split(".")[0] || "image"}
+                alt={aboutContent.h2Image.split("/").pop()?.split(".")[0] || "image"}
                 width={1000}
                 height={1000}
               />
@@ -92,20 +91,20 @@ const page = () => {
 
           <div className="p-4  rounded-lg w-full grid grid-cols-1 md:grid-cols-3 gap-8 ">
             <div className="border-[3px] hover:bg-main  hover:text-white ease-in-out duration-300  rounded-lg border-main ">
-              <h2 className="text-2xl font-bold p-2 text-center">{contentData.missionSection[0].title}</h2>
-              <div className=" p-4 text-center" dangerouslySetInnerHTML={{ __html: contentData.missionSection[0].description?.split("[location]").join( ContactInfo.location)
+              <h2 className="text-2xl font-bold p-2 text-center">{aboutContent.missionSection[0].title}</h2>
+              <div className=" p-4 text-center" dangerouslySetInnerHTML={{ __html: aboutContent.missionSection[0].description?.split("[location]").join( ContactInfo.location)
       ?.split("[phone]").join(ContactInfo.No)}}></div>
             </div>
 
             <div className="border-[3px] bg-main  hover:bg-transparent hover:text-black  text-white ease-in-out duration-300  rounded-lg border-main ">
-              <h2 className="text-2xl font-bold p-2 text-center">{contentData.missionSection[1].title}</h2>
-              <div className=" p-4 text-center" dangerouslySetInnerHTML={{ __html: contentData.missionSection[1].description?.split("[location]").join( ContactInfo.location)
+              <h2 className="text-2xl font-bold p-2 text-center">{aboutContent.missionSection[1].title}</h2>
+              <div className=" p-4 text-center" dangerouslySetInnerHTML={{ __html: aboutContent.missionSection[1].description?.split("[location]").join( ContactInfo.location)
       ?.split("[phone]").join(ContactInfo.No)}}></div>
             </div>
 
             <div className="border-[3px] hover:bg-main hover:text-white ease-in-out duration-300  rounded-lg border-main ">
-              <h2 className="text-2xl font-bold p-2 text-center">{contentData.missionSection[2].title}</h2>
-              <div className=" p-4 text-center" dangerouslySetInnerHTML={{ __html: contentData.missionSection[2].description?.split("[location]").join( ContactInfo.location)
+              <h2 className="text-2xl font-bold p-2 text-center">{aboutContent.missionSection[2].title}</h2>
+              <div className=" p-4 text-center" dangerouslySetInnerHTML={{ __html: aboutContent.missionSection[2].description?.split("[location]").join( ContactInfo.location)
       ?.split("[phone]").join(ContactInfo.No)}}></div>
             </div>
 
@@ -128,12 +127,12 @@ const page = () => {
         {/* all */}
         <div className="md:mx-20 mx-4 my-20">
           <div className="text-2xl font-bold "><div className="flex justify-center gap-2 "><FaCrown className={`text-2xl text-main `} />Areas We Serve</div></div>
-          <div className=" mt-2 text-xl text-center" dangerouslySetInnerHTML={{ __html: contentData.areaweserveSection.description?.split("[location]").join(ContactInfo.location)
+          <div className=" mt-2 text-xl text-center" dangerouslySetInnerHTML={{ __html: aboutContent.areaweserveSection.description?.split("[location]").join(ContactInfo.location)
       ?.split("[phone]").join(ContactInfo.No) }}> 
             
           </div>
           <div className="flex justify-center">
-          <Link href={`${ContactInfo?.baseUrl}locations`} className=" font-bold text-main hover:tracking-wide ease-in duration-150 text-xl text-center ">{contentData.areaweserveSection.linkText}</Link>
+          <Link href={`${ContactInfo?.baseUrl}locations`} className=" font-bold text-main hover:tracking-wide ease-in duration-150 text-xl text-center ">{aboutContent.areaweserveSection.linkText}</Link>
           </div>
           
           

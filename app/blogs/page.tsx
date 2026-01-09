@@ -1,10 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import BlogPosts from "../components/Widgets/BlogPosts";
-import ContactInfo from "@/components/Content/ContactInfo.json";
 import Navbar from "../components/Navbar";
 import { headers } from "next/headers";
 import contactContent from "@/app/Data/content";
+
+const ContactInfo: any = contactContent.contactContent;
 const blogsMetas: any = contactContent.locationPageContent;
 // Force the page to be dynamic
 export const dynamic = "force-dynamic";
